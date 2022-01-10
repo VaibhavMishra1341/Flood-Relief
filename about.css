@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+.about {
+  background: url("img/about1.jpg");
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: top;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  height: 49.7rem;
+  max-width: 45rem;
+  background: rgb(0, 0, 0, 0.8);
+  color: white;
+  line-height: 2;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 15px;
+  display: flex;
+}
+.container h1 {
+  color: rgb(224, 53, 70);
+  margin-top: -1.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.container li {
+  margin: 20px;
+}
+.about-detail {
+  margin: 2rem;
+  font-size: 18px;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(224, 53, 70);
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+  border: none;
+  cursor: cell;
+  margin: 2rem 2rem 2rem 0rem;
+}

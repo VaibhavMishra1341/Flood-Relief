@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Donate</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap");
+      body,
+      html {
+        height: 100%;
+      }
+
+      .bgimg {
+        background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)),
+          url("img/tog.jpg");
+
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+        color: white;
+        font-family: "DM Sans", sans-serif;
+
+        font-size: 25px;
+      }
+
+      .topleft {
+        position: absolute;
+        top: 0;
+        left: 16px;
+      }
+
+      .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+      }
+
+      hr {
+        margin: auto;
+        width: 40%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="bgimg">
+      <div class="topleft">
+        <p>
+          <a style="color: white; text-decoration: none" href="index.html"
+            >SPARK DONATE</a
+          >
+        </p>
+      </div>
+
+      <div class="middle">
+        <h1>Thank you for your generous donation.</h1>
+        <form>
+          <script
+            src="https://checkout.razorpay.com/v1/payment-button.js"
+            data-payment_button_id="pl_HwYmEVwH9aAsoE"
+            async
+          ></script>
+        </form>
+        <hr />
+        <p>
+          We greatly appreciate your initiative and assure transparent use of
+          your donation!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
